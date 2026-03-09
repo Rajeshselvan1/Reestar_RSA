@@ -1,6 +1,8 @@
 *{  
     padding: 0;
     margin: 0;
+    margin: 0 auto;
+    text-align: center;
 }
 .container{
     padding: 20px;  
@@ -9,16 +11,49 @@
     background-color: black;
     color: white;
     padding: 20px;
-    text-align: center;
+}
+.header-one___subtitle{
+    font-size: 10px;
 }
 .header-two, .header-three, .header-four, .header-five{
     margin-top: 20px;
-    padding-right: 20px;
-    border-color: black 10px ;
+    border: 2px solid black;
     display: inline-block;  
-
+    width: 200px;
 }
 .header-two__title, .header-three__title, .header-four__title, .header-five__title{
     color: black;
     font-size: 15px;
+}
+.contact-form{
+    margin-top: 20px;
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+.contact-form__table{
+    text-align: center;
+}
+.contact-form__input{
+    display: block;
+    align-items: center;
+}
+.header-two__button, .header-three__button, .header-four__button, .header-five__button{
+    display: block;
+    margin-top: 10px;
+    border: none;
+    color: white;
+    background-color: black;
+    padding: 10px;
+}
+.contact-form__button{
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border: none;
+    color: black;
+    background-color: yellow;
+    padding: 5px;
+    padding-left: 200px;
+    padding-right: 200px;
 }
